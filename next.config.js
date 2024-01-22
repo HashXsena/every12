@@ -9,8 +9,8 @@ trailingSlash: true,
   async rewrites() {
     return [
       {
-        source: '/blog/:path*/',
-        destination: 'http://newthing.22web.org/:path*/'
+        source: 'http://newthing.22web.org/',
+        destination: 'http://newthing.22web.org'
       },
     ];
   },
